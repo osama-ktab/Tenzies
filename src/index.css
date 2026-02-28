@@ -46,7 +46,7 @@ main {
 @media (max-width: 640px) {
   main {
     width: 70vw;
-    height: 86vh;
+    height: 83vh;
   }
 }
 
@@ -61,6 +61,16 @@ main {
   margin-top: 0;
   text-align: center;
   font-size: x-large;
+}
+
+@media (max-width: 650px) {
+  .instructions {
+    font-size: medium;
+  }
+
+  .title {
+    font-size: 30px;
+  }
 }
 
 .numbers-container {
@@ -125,7 +135,7 @@ the buttons will take a smaller width and height in the phone mode and the gap w
   border-radius: 5px;
   font-size: medium;
   padding: 10px 15px 10px 15px;
-  margin-top: 15px;
+  margin-top: 7px;
   font-weight: 300;
   background-color: #ff5035;
   cursor: pointer;
